@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>kaupunkiIkkuna</class>
+ <widget class="QMainWindow" name="kaupunkiIkkuna">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1093</width>
+    <height>817</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kaupunki</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1073</width>
+         <height>775</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QGraphicsView" name="peliKartta">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>825</width>
+              <height>723</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>825</width>
+              <height>723</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QLabel" name="pisteTiedot">
+              <property name="styleSheet">
+               <string notr="true">font: 12pt &quot;Serif&quot;;</string>
+              </property>
+              <property name="text">
+               <string>PISTEET:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLCDNumber" name="pisteNaytto">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>50</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="rahaTiedot">
+              <property name="styleSheet">
+               <string notr="true">font: 12pt &quot;Serif&quot;;</string>
+              </property>
+              <property name="text">
+               <string>RAHAT:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLCDNumber" name="rahaNaytto">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>50</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QTextBrowser" name="parkkihallinTiedot">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>150</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>150</height>
+               </size>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QPushButton" name="phalliNappi">
+              <property name="minimumSize">
+               <size>
+                <width>148</width>
+                <height>81</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>148</width>
+                <height>81</height>
+               </size>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::ClickFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Kuvat.qrc">
+                <normaloff>:/new/prefix1/Kuvat/menePhalliinNappi.png</normaloff>:/new/prefix1/Kuvat/menePhalliinNappi.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>148</width>
+                <height>81</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QPushButton" name="kauppaNappi">
+              <property name="minimumSize">
+               <size>
+                <width>148</width>
+                <height>81</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>148</width>
+                <height>81</height>
+               </size>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::ClickFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Kuvat.qrc">
+                <normaloff>:/new/prefix1/Kuvat/meneKauppaanNappi.png</normaloff>:/new/prefix1/Kuvat/meneKauppaanNappi.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>148</width>
+                <height>81</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QPushButton" name="lopetaNappi">
+              <property name="minimumSize">
+               <size>
+                <width>148</width>
+                <height>81</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>148</width>
+                <height>81</height>
+               </size>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::ClickFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Kuvat.qrc">
+                <normaloff>:/new/prefix1/Kuvat/lopetaNappi.png</normaloff>:/new/prefix1/Kuvat/lopetaNappi.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>148</width>
+                <height>81</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="Kuvat.qrc"/>
+ </resources>
+ <connections/>
+</ui>

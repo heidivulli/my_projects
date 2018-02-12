@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Kuvat/karttakuva.png</file>
+        <file>Kuvat/laura.png</file>
+        <file>Kuvat/lopetaNappi.png</file>
+        <file>Kuvat/menePhalliinNappi.png</file>
+        <file>Kuvat/phalli.png</file>
+        <file>Kuvat/teekkariKyborgi.png</file>
+        <file>Kuvat/parkkihalliTausta.png</file>
+        <file>Kuvat/vihollinen.png</file>
+        <file>Kuvat/auto.png</file>
+        <file>Kuvat/tuhottuPhalli.png</file>
+        <file>Kuvat/teekkariKyborgi2.png</file>
+        <file>Kuvat/kauppa.png</file>
+        <file>Kuvat/meneKauppaanNappi.png</file>
+        <file>Kuvat/palaaNappi.png</file>
+        <file>Kuvat/haulikkoKuva.png</file>
+        <file>Kuvat/kilpiKuva.png</file>
+        <file>Kuvat/kivaariKuva.png</file>
+        <file>Kuvat/pistooliKuva.png</file>
+        <file>Kuvat/luoti.png</file>
+        <file>Kuvat/phalliKeskivaikea.png</file>
+        <file>Kuvat/phalliVaikea.png</file>
+        <file>Kuvat/luoti2.png</file>
+        <file>Kuvat/luoti3.png</file>
+        <file>Kuvat/suljeNappi.png</file>
+        <file>Kuvat/ostaNappi.png</file>
+        <file>Kuvat/lopetaVuoroNappi.png</file>
+        <file>Kuvat/haulikko.png</file>
+        <file>Kuvat/kilpi.png</file>
+        <file>Kuvat/kivaari.png</file>
+        <file>Kuvat/pistooli.png</file>
+        <file>Kuvat/ohjeet.png</file>
+    </qresource>
+</RCC>

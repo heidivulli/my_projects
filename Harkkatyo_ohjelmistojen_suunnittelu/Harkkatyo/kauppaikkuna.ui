@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KauppaIkkuna</class>
+ <widget class="QMainWindow" name="KauppaIkkuna">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>6666</width>
+    <height>6666</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Kauppa</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/prefix1/Kuvat/kauppaTausta.jpg)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <property name="topMargin">
+     <number>10</number>
+    </property>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <property name="bottomMargin">
+     <number>10</number>
+    </property>
+    <property name="spacing">
+     <number>7</number>
+    </property>
+    <item row="1" column="1" alignment="Qt::AlignRight">
+     <widget class="QPushButton" name="palaaNappi">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="Kuvat.qrc">
+        <normaloff>:/new/prefix1/Kuvat/palaaNappi.png</normaloff>:/new/prefix1/Kuvat/palaaNappi.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>100</width>
+        <height>55</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>379</width>
+         <height>529</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <property name="spacing">
+         <number>8</number>
+        </property>
+        <item row="1" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="rahaTiedot">
+            <property name="styleSheet">
+             <string notr="true">font: 12pt &quot;Serif&quot;;</string>
+            </property>
+            <property name="text">
+             <string>RAHAT:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLCDNumber" name="rahaNaytto">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>500</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QGraphicsView" name="graphicsView">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>152</width>
+                <height>84</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>152</width>
+                <height>84</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-image: url(:/new/prefix1/Kuvat/kilpiKuva.png);
+</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="ostaKilpi">
+              <property name="minimumSize">
+               <size>
+                <width>84</width>
+                <height>48</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>84</width>
+                <height>48</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Kuvat.qrc">
+                <normaloff>:/new/prefix1/Kuvat/ostaNappi.png</normaloff>:/new/prefix1/Kuvat/ostaNappi.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>84</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="kilpi">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Serif&quot;;</string>
+            </property>
+            <property name="text">
+             <string> Kilpi: 500 e</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QGraphicsView" name="kivaariKuva">
+              <property name="minimumSize">
+               <size>
+                <width>152</width>
+                <height>84</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>152</width>
+                <height>84</height>
+               </size>
+              </property>
+              <property name="autoFillBackground">
+               <bool>true</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-image: url(:/new/prefix1/Kuvat/haulikkoKuva.png);
+</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="ostaHaulikko">
+              <property name="minimumSize">
+               <size>
+                <width>84</width>
+                <height>48</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>84</width>
+                <height>48</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Kuvat.qrc">
+                <normaloff>:/new/prefix1/Kuvat/ostaNappi.png</normaloff>:/new/prefix1/Kuvat/ostaNappi.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>84</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="haulikko">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Serif&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Haulikko: 1000 e</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QGraphicsView" name="haulikkoKuva">
+              <property name="minimumSize">
+               <size>
+                <width>152</width>
+                <height>84</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>152</width>
+                <height>84</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-image: url(:/new/prefix1/Kuvat/kivaariKuva.png);
+</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="ostaKivaari">
+              <property name="minimumSize">
+               <size>
+                <width>84</width>
+                <height>48</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>84</width>
+                <height>48</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Kuvat.qrc">
+                <normaloff>:/new/prefix1/Kuvat/ostaNappi.png</normaloff>:/new/prefix1/Kuvat/ostaNappi.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>84</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="kivaari">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Serif&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Kivääri: 2000 e</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="Kuvat.qrc"/>
+ </resources>
+ <connections/>
+</ui>
